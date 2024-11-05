@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CV Creator</title>
+    <!-- Подключаем файл стилей -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>CV Creator</h1>
+
+<!-- Форма для ввода данных резюме -->
+<form id="cvForm">
+    <!-- Поле для ввода ФИО -->
+    <div class="block">
+        <label for="fullName">ФИО<span class="required">*</span>:</label>
+        <input type="text" id="fullName" required>
+    </div>
+
+    <!-- Поле для ввода даты рождения -->
+    <div class="block">
+        <label for="dob">Дата рождения<span class="required">*</span>:</label>
+        <input type="date" id="dob" required>
+    </div>
+
+    <!-- Поле для ввода контактной информации -->
+    <div class="block">
+        <label for="contactInfo">Контактная информация<span class="required">*</span>:</label>
+        <textarea id="contactInfo" rows="3" required></textarea>
+    </div>
+
+    <!-- Поле для ввода образования -->
+    <div class="block">
+        <label for="education">Образование<span class="required">*</span>:</label>
+        <textarea id="education" rows="3" required></textarea>
+    </div>
+
+    <!-- Поле для ввода навыков -->
+    <div class="block">
+        <label for="skills">Навыки<span class="required">*</span>:</label>
+        <textarea id="skills" rows="3" required></textarea>
+    </div>
+
+    <!-- Поле для ввода пет проектов -->
+    <div class="block">
+        <label for="petProjects">Пет проекты:</label>
+        <textarea id="petProjects" rows="3"></textarea>
+    </div>
+
+    <!-- Поле для ввода информации "Обо мне" -->
+    <div class="block">
+        <label for="aboutMe">Обо мне:</label>
+        <textarea id="aboutMe" rows="3"></textarea>
+    </div>
+
+    <!-- Кнопка для сохранения резюме -->
+    <button type="submit" id="saveButton">Сохранить резюме</button>
+</form>
+
+<!-- Подключаем файл скрипта -->
+<script src="script.js"></script>
+
+</body>
+</html>

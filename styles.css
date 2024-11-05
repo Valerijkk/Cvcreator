@@ -1,0 +1,41 @@
+/* Основные стили для страницы */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Стиль для заголовка */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Стиль для блоков ввода */
+.block {
+    margin-bottom: 15px;
+}
+
+/* Стиль для меток полей ввода */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Отметка обязательных полей */
+.required {
+    color: red;
+}
+
+/* Стиль для полей ввода и текстовых областей */
+textarea, input[type="text"], input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+/* Стиль для кнопки сохранения */
+#saveButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
